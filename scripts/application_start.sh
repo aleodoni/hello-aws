@@ -4,4 +4,4 @@ source /home/ec2-user/.bash_profile
 
 cd /home/app/hello-aws
 
-npm start:prod
+npm run start:prod
