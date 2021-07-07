@@ -10,4 +10,4 @@ npm install
 
 npm run build
 
-sudo npm i -g pm2
+npm i -g pm2
