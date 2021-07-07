@@ -1,4 +1,4 @@
-# Criar instância EC2
+# Usando apenas EC2
 ## Selecionar AMI (Amazon Machine Image)
 ## Configurar Grupo de Segurança
 ### Adicionar porta 22 Anywhere
@@ -56,3 +56,10 @@ pm2 start dist/main.js
 ### Configurar PM2 para subir aplicação mesmo após reboot
 ```bash
 pm2 startup
+```
+
+# Usando CodeDeploy
+
+Usei como base o guia : https://dev.to/ankushbehera/a-complete-guide-to-deploy-github-project-on-amazon-ec2-using-github-actions-and-aws-codedeploy-3f0b
+
+Assim, qualquer alteração feita no branch main dispara os gatilhos no CI e no CD (caso CI passe com sucesso)
