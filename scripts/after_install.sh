@@ -9,3 +9,5 @@ cd /home/app/hello-aws
 npm install
 
 npm run build
+
+npm install pm2 -g
