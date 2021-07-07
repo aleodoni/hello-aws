@@ -6,4 +6,4 @@ cd /home/app/hello-aws
 
 #npm run start:prod
 
-sudo pm2 start dist/main.js
+pm2 start dist/main.js
